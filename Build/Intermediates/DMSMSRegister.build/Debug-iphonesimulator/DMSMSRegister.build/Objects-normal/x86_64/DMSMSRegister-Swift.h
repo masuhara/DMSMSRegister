@@ -130,6 +130,7 @@ SWIFT_CLASS("_TtC13DMSMSRegister14ViewController")
 @interface ViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)didTapButtonWithSender:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

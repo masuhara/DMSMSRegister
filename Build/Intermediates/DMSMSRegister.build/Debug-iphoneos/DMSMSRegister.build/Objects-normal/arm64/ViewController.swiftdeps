@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C13DMSMSRegister14ViewController", ""]
 provides-dynamic-lookup:
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
 - "didTapButton"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "NSLog"
 - !private "UIAlertAction"
-- !private "Digits"
-- "UIViewController"
-- !private "DGTAuthenticateButton"
-- "BooleanLiteralType"
-- "AnyObject"
+- !private "NSLog"
+- !private "UIAlertController"
 - !private "DGTAuthenticationConfiguration"
 - !private "!="
 - "ViewController"
+- "BooleanLiteralType"
+- "AnyObject"
+- !private "Digits"
+- "UIViewController"
+- !private "DGTAuthenticateButton"
 - "StringLiteralType"
-- !private "UIAlertController"
 depends-member:
 - !private ["Ps9AnyObject", "DGTAuthenticateButton"]
 - !private ["Ps9AnyObject", "DGTAuthenticationConfiguration"]

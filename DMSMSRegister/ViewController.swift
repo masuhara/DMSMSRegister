@@ -14,6 +14,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        /* if you want to revoke your session
+        let sharedInstance = Digits.sharedInstance()
+        if sharedInstance.session() != nil {
+            Digits.sharedInstance().logOut()
+        }
+         */
+        
         let authButton = DGTAuthenticateButton(authenticationCompletion: { (session, error) in
             if (session != nil) {
                 // TODO: associate the session userID with your user model
