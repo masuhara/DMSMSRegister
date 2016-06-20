@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C13DMSMSRegister14ViewController", ""]
 provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
 - "viewDidLoad"
 - "didTapButton"
-- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "DGTAuthenticateButton"
-- "StringLiteralType"
-- !private "UIAlertAction"
-- "UIViewController"
-- !private "Digits"
-- "BooleanLiteralType"
-- "AnyObject"
-- !private "DGTAuthenticationConfiguration"
 - !private "!="
+- "AnyObject"
 - !private "UIAlertController"
-- "ViewController"
+- !private "Digits"
+- "StringLiteralType"
+- "UIViewController"
+- !private "DGTAuthenticateButton"
 - !private "NSLog"
+- !private "UIAlertAction"
+- "ViewController"
+- !private "DGTAuthenticationConfiguration"
+- "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "DGTAuthenticateButton"]
 - !private ["Ps9AnyObject", "DGTAuthenticationConfiguration"]
@@ -37,10 +37,8 @@ depends-member:
 - ["Ps9AnyObject", "didTapButton"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "localizedDescription"]
-- !private ["Ps9AnyObject", "logOut"]
 - !private ["Ps9AnyObject", "phoneNumber"]
 - !private ["Ps9AnyObject", "present"]
-- !private ["Ps9AnyObject", "session"]
 - !private ["Ps9AnyObject", "sharedInstance"]
 - !private ["Ps9AnyObject", "view"]
 - ["Ps9AnyObject", "viewDidLoad"]
@@ -67,10 +65,8 @@ depends-member:
 - ["Ps7CVarArg", "didTapButton"]
 - ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "localizedDescription"]
-- !private ["Ps7CVarArg", "logOut"]
 - !private ["Ps7CVarArg", "phoneNumber"]
 - !private ["Ps7CVarArg", "present"]
-- !private ["Ps7CVarArg", "session"]
 - !private ["Ps7CVarArg", "sharedInstance"]
 - !private ["Ps7CVarArg", "view"]
 - ["Ps7CVarArg", "viewDidLoad"]
@@ -91,11 +87,9 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "didTapButton"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
-- !private ["Ps28CustomDebugStringConvertible", "logOut"]
 - !private ["Ps28CustomDebugStringConvertible", "none"]
 - !private ["Ps28CustomDebugStringConvertible", "phoneNumber"]
 - !private ["Ps28CustomDebugStringConvertible", "present"]
-- !private ["Ps28CustomDebugStringConvertible", "session"]
 - !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
 - !private ["Ps28CustomDebugStringConvertible", "view"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
@@ -120,10 +114,8 @@ depends-member:
 - ["Ps23CustomStringConvertible", "didTapButton"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "localizedDescription"]
-- !private ["Ps23CustomStringConvertible", "logOut"]
 - !private ["Ps23CustomStringConvertible", "phoneNumber"]
 - !private ["Ps23CustomStringConvertible", "present"]
-- !private ["Ps23CustomStringConvertible", "session"]
 - !private ["Ps23CustomStringConvertible", "sharedInstance"]
 - !private ["Ps23CustomStringConvertible", "view"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
@@ -135,8 +127,6 @@ depends-member:
 - !private ["CSo30DGTAuthenticationConfiguration", "phoneNumber"]
 - !private ["CSo10DGTSession", "phoneNumber"]
 - !private ["CSo6Digits", "authenticate"]
-- !private ["CSo6Digits", "logOut"]
-- !private ["CSo6Digits", "session"]
 - !private ["CSo6Digits", "sharedInstance"]
 - !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "DGTAuthenticateButton"]
@@ -157,10 +147,8 @@ depends-member:
 - ["Ps9Equatable", "didTapButton"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "localizedDescription"]
-- !private ["Ps9Equatable", "logOut"]
 - !private ["Ps9Equatable", "phoneNumber"]
 - !private ["Ps9Equatable", "present"]
-- !private ["Ps9Equatable", "session"]
 - !private ["Ps9Equatable", "sharedInstance"]
 - !private ["Ps9Equatable", "view"]
 - ["Ps9Equatable", "viewDidLoad"]
@@ -185,10 +173,8 @@ depends-member:
 - ["Ps8Hashable", "didTapButton"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "localizedDescription"]
-- !private ["Ps8Hashable", "logOut"]
 - !private ["Ps8Hashable", "phoneNumber"]
 - !private ["Ps8Hashable", "present"]
-- !private ["Ps8Hashable", "session"]
 - !private ["Ps8Hashable", "sharedInstance"]
 - !private ["Ps8Hashable", "view"]
 - ["Ps8Hashable", "viewDidLoad"]
@@ -252,10 +238,8 @@ depends-member:
 - ["CSo8NSObject", "didTapButton"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "localizedDescription"]
-- !private ["CSo8NSObject", "logOut"]
 - !private ["CSo8NSObject", "phoneNumber"]
 - !private ["CSo8NSObject", "present"]
-- !private ["CSo8NSObject", "session"]
 - !private ["CSo8NSObject", "sharedInstance"]
 - !private ["CSo8NSObject", "view"]
 - ["CSo8NSObject", "viewDidLoad"]
@@ -273,10 +257,8 @@ depends-member:
 - ["PSo16NSObjectProtocol", "didTapButton"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "localizedDescription"]
-- !private ["PSo16NSObjectProtocol", "logOut"]
 - !private ["PSo16NSObjectProtocol", "phoneNumber"]
 - !private ["PSo16NSObjectProtocol", "present"]
-- !private ["PSo16NSObjectProtocol", "session"]
 - !private ["PSo16NSObjectProtocol", "sharedInstance"]
 - !private ["PSo16NSObjectProtocol", "view"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]

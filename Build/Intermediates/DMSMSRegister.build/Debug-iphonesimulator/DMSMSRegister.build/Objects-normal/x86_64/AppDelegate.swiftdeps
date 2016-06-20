@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C13DMSMSRegister11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillTerminate"
+- "application"
+- "applicationDidBecomeActive"
 - "window"
 - "applicationWillResignActive"
-- "applicationWillEnterForeground"
-- "application"
+- "applicationWillTerminate"
 - "applicationDidEnterBackground"
-- "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
 depends-top-level:
-- "UIApplicationDelegate"
-- "Bool"
-- !private "Digits"
-- "AnyObject"
-- "UIResponder"
+- !private "Fabric"
 - "UIWindow"
 - !private "Array"
-- !private "Fabric"
-- "AppDelegate"
 - "NSObject"
-- !private "BooleanLiteralType"
+- "UIApplicationDelegate"
+- "AnyObject"
+- "Bool"
 - "UIApplication"
+- "UIResponder"
+- !private "Digits"
+- !private "BooleanLiteralType"
+- "AppDelegate"
 depends-member:
 - !private ["Ps9AnyObject", "Digits"]
 - !private ["Ps9AnyObject", "Fabric"]
