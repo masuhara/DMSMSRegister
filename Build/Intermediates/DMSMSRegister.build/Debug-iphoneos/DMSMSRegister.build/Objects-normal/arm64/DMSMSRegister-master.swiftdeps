@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.30 clang-800.0.24)"
+options: "a531156f12baf543fa78bbe7cbabf52e"
+build_time: [519754625, 303833000]
+inputs:
+  "/Users/Masuhara/Desktop/DMSMSRegister/DMSMSRegister/ViewController.swift": [519754320, 0]
+  "/Users/Masuhara/Desktop/DMSMSRegister/DMSMSRegister/AppDelegate.swift": [519752769, 0]

@@ -12,6 +12,10 @@
 		7A7F19671D184396007ADF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F19651D184396007ADF44 /* Main.storyboard */; };
 		7A7F19691D184396007ADF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F19681D184396007ADF44 /* Assets.xcassets */; };
 		7A7F196C1D184396007ADF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F196A1D184396007ADF44 /* LaunchScreen.storyboard */; };
+		7A7F19781D1845A5007ADF44 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7F19741D1845A5007ADF44 /* Fabric.framework */; };
+		7A7F19791D1845A5007ADF44 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7F19751D1845A5007ADF44 /* DigitsKit.framework */; };
+		7A7F197A1D1845A5007ADF44 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A7F19761D1845A5007ADF44 /* DigitsKitResources.bundle */; };
+		7A7F197B1D1845A5007ADF44 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7F19771D1845A5007ADF44 /* TwitterCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7A7F19681D184396007ADF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A7F196B1D184396007ADF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A7F196D1D184396007ADF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7F19741D1845A5007ADF44 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		7A7F19751D1845A5007ADF44 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
+		7A7F19761D1845A5007ADF44 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DigitsKitResources.bundle; sourceTree = "<group>"; };
+		7A7F19771D1845A5007ADF44 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7F19781D1845A5007ADF44 /* Fabric.framework in Frameworks */,
+				7A7F197B1D1845A5007ADF44 /* TwitterCore.framework in Frameworks */,
+				7A7F19791D1845A5007ADF44 /* DigitsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +65,10 @@
 		7A7F19601D184396007ADF44 /* DMSMSRegister */ = {
 			isa = PBXGroup;
 			children = (
+				7A7F19741D1845A5007ADF44 /* Fabric.framework */,
+				7A7F19751D1845A5007ADF44 /* DigitsKit.framework */,
+				7A7F19761D1845A5007ADF44 /* DigitsKitResources.bundle */,
+				7A7F19771D1845A5007ADF44 /* TwitterCore.framework */,
 				7A7F19611D184396007ADF44 /* AppDelegate.swift */,
 				7A7F19631D184396007ADF44 /* ViewController.swift */,
 				7A7F19651D184396007ADF44 /* Main.storyboard */,
@@ -74,6 +89,7 @@
 				7A7F195A1D184396007ADF44 /* Sources */,
 				7A7F195B1D184396007ADF44 /* Frameworks */,
 				7A7F195C1D184396007ADF44 /* Resources */,
+				7A7F19731D184597007ADF44 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7F197A1D1845A5007ADF44 /* DigitsKitResources.bundle in Resources */,
 				7A7F196C1D184396007ADF44 /* LaunchScreen.storyboard in Resources */,
 				7A7F19691D184396007ADF44 /* Assets.xcassets in Resources */,
 				7A7F19671D184396007ADF44 /* Main.storyboard in Resources */,
@@ -132,6 +149,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A7F19731D184597007ADF44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 087fe632fb6db400c2494d1330326964b76424a3 9797d8940812d0f2808c82ce869fe5d531c54d248ce0118b56660b51a09841dd";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A7F195A1D184396007ADF44 /* Sources */ = {
@@ -256,6 +289,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DMSMSRegister",
+				);
 				INFOPLIST_FILE = DMSMSRegister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.masuhara.DMSMSRegister;
@@ -268,6 +305,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DMSMSRegister",
+				);
 				INFOPLIST_FILE = DMSMSRegister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.masuhara.DMSMSRegister;
